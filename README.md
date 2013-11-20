@@ -6,7 +6,7 @@ This repository is intended to serve as an easy access to the data in the [2013 
 Figures
 -------------
 
-![Figures](./Figures.md) can be found here.
+...can be found [here](./Figures.md). 
 
 
 Data source

@@ -5,13 +5,16 @@
 # Feel free to fork, play around and improve.
 
 require(foreign)
-# Data in proprietary Stata format
+# Data in proprietary Stata format, can be pulled from the authors' website 
 Fig1.dta = read.dta("http://www.cens.uni-bonn.de/experiments/falk-szech/fig1.dta")
 Fig2.dta = read.dta("http://www.cens.uni-bonn.de/experiments/falk-szech/fig2.dta")
 tab_s1.dta = read.dta("http://www.cens.uni-bonn.de/experiments/falk-szech/tab-s1.dta")
 
+# Alternatively, the same data is included in the repository (as of Nov. 20th, 2013) and can be used directly, should the need arise
+# save(Fig1.dta, Fig2.dta, tab_s1.dta, file="original_data.RData")
+# load("original_data.RData")
 
-Fig1.agg = table(Fig1.dta)
+table(Fig1.dta)
 
 require(ggplot2)
 theme_set(theme_bw()) # Simple backgrounds

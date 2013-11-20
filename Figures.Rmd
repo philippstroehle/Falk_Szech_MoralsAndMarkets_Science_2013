@@ -2,7 +2,7 @@ Falk, Szech: Morals and Markets
 ========================================================
 
 ```{r}
-#  Data from http://www.cens.uni-bonn.de/experiments/falk-szech
+# Data from http://www.cens.uni-bonn.de/experiments/falk-szech
 # This is the data from the paper at http://www.sciencemag.org/content/340/6133/707.full.pdf
 # Title: Morals and Markets
 # Feel free to fork, play around and improve.

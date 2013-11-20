@@ -1,7 +1,7 @@
 Falk_Szech_MoralsAndMarkets_Science_2013
 ========================================
 
-This repository is intended to serve as an easy access to the data in the 2013 "Science" paper of Falk and Szech, Morals and Markets.
+This repository is intended to serve as an easy access to the data in the [2013 "Science" paper of Falk and Szech, Morals and Markets](http://www.sciencemag.org/content/340/6133/707.full.pdf).
 
 The original data is pulled from the authors' website and the two included figures are displayed in a slightly different way.
 

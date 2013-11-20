@@ -45,6 +45,6 @@ p = p + geom_line(aes(linetype = treatment))
 p = p + geom_errorbar(aes(ymin = ymin, ymax = ymax), alpha = 0.1)
 p = p + scale_fill_grey()
 p = p + ylab("Price") + xlab("Period")
-p = p + ylim(c(0,10)) + xlim(c(1,10))
+# p = p + ylim(c(0,10)) + xlim(c(1,10))
 p
 

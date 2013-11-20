@@ -1,4 +1,4 @@
-Falk, Szech (2013): Morals and Markets
+Falk, Szech: Morals and Markets
 ========================================================
 
 
@@ -36,9 +36,6 @@ Figure 1
 ```r
 require(ggplot2)
 theme_set(theme_bw())  # Simple backgrounds
-####################### Fig 1 Fig1.dta$option_b = as.factor(Fig1.dta$option_b) Fig1.dta$treatment
-####################### = as.factor(Fig1.dta$treatment)
-
 p = ggplot(Fig1.dta, aes(x = treatment, fill = option_b, ))
 p = p + geom_bar(position = "fill")
 # p = p + geom_errorbar() # see for details:
@@ -58,7 +55,6 @@ Figure 2
 
 
 ```r
-####################### Fig 2
 require(ggplot2)
 require(Hmisc)
 require(plyr)  # to do some data processing, i.e. group wise aggregations, we use plyr

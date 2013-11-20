@@ -25,12 +25,6 @@ Figure 1
 ```{r, message=FALSE, fig.width=10, fig.height=6}
 require(ggplot2)
 theme_set(theme_bw()) # Simple backgrounds
-#######################
-## Fig 1
-#######################
-# Fig1.dta$option_b = as.factor(Fig1.dta$option_b)
-# Fig1.dta$treatment = as.factor(Fig1.dta$treatment)
-
 p = ggplot(Fig1.dta, aes(x = treatment, fill = option_b, ))
 p = p + geom_bar(position = "fill")
 # p = p + geom_errorbar() # see for details: http://docs.ggplot2.org/0.9.3.1/geom_errorbar.html
@@ -45,9 +39,6 @@ Figure 2
 -------
 
 ```{r, message=FALSE, fig.width=10, fig.height=6}
-#######################
-## Fig 2
-#######################
 require(ggplot2)
 require(Hmisc)
 require(plyr) # to do some data processing, i.e. group wise aggregations, we use plyr
